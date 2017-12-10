@@ -1,0 +1,156 @@
+html {
+  color: #4d4d4f;
+  font-size: 16px;
+  font-family: Helvetica, sans-serif;
+}
+
+h1 {
+	font-size: 2rem;
+	font-weight: bold;
+}
+
+h2 {
+	font-size: 1.5rem;
+}
+
+p {
+	line-height: 1.25rem;
+}
+#navbar {
+  margin: 0 auto;
+}
+
+header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	height: 4rem;
+	background-color: #298888;
+	color: black;
+	position: fixed;
+	width: 100%;
+	z-index: 5;
+}
+
+.logo {
+  display: flex;
+	align-items: center;
+	margin-left: 1.5rem;
+}
+
+.logo img {
+  height: 2rem;
+}
+
+.logo span {
+  font-size: 1.2rem;
+}
+
+.colmar {
+  color: black;
+}
+
+.academy {
+  color: #b2afb5;
+}
+
+.navlist ul li {
+	display: inline-block;
+	font-size: 1rem;
+  margin-right: 1rem;
+	text-align: center;
+}
+
+#banner {
+	display: flex;
+	justify-content: flex-start;
+	padding: 2rem 1.5rem;
+	position: relative;
+	top: 4rem;
+  background-color: lightgray;
+}
+
+.bannerimage {
+	width: 60%;
+	overflow: hidden;
+}
+
+.bannerimage img {
+	width: 100%;
+}
+
+.bannertext {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin-left: 1.5rem;
+	width: 35%;
+}
+
+.bannertext h2 {
+  font-size: 1.4rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.startbutton {
+	font-size: 1.5rem;
+	padding-top: .5rem;
+	padding-bottom: .5rem;
+	background-color: #4d4d4f;
+	text-align: center;
+	color: #FFF;
+}
+
+.startbutton span:hover {
+	color: black;
+}
+
+#academyinfo, #thesis {
+  display: flex;
+	justify-content: flex-start;
+	padding: 2rem 1.5rem;
+	background-color: #FAFAFA;
+	position: relative;
+	top: 4rem;
+}
+
+.academyinfoleft, .main-thesis {
+  display: flex;
+	flex-direction: column;
+	width: 40%;
+	margin-left: 1.5rem;
+}
+
+.rightinfo-image img {
+  width: 100%;
+	height: auto;
+}
+
+.orientation-info,  .prototype-thesis {
+  display: flex;
+	flex-direction: column;
+	width: 40%;
+	margin-left: 1.5rem;
+}
+
+.rightinfo-image, .thesis-image {
+  width: 35%;
+}
+.leftinfoimage img {
+  width: 100%
+}
+
+.prototype-detail {
+  display: flex;
+	flex-direction: row;
+	align-items: center;
+	margin-left: 1rem;
+	height: auto;
+}
+
+.info-tiles-detail, .prototype-text {
+	width: 65%;
+}
+
+learning
